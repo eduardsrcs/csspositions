@@ -1,0 +1,59 @@
+#relative{
+  position: relative;
+  width: 300px;
+  height: 1000px;
+  border: 1px solid green;
+  top: 0px;
+  left: 100px;
+}
+
+#innerabsolute, #outerabsolute{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+  top: 30px;
+  right: 10px;
+}
+
+#outerabsolute {
+  border: 1px solid blue;
+}
+
+#fixed{
+  position: fixed;
+  border: 3px dashed grey;
+  top: 100px;
+  left: 100px;
+  bottom: 100px;
+  right: 100px;
+}
+
+#fixed2{
+  position: fixed;
+  border: 3px dashed green;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+}
+
+#second{
+  height: 1000px;
+}
+
+.sticky{
+  position: sticky;
+  height: 30px;
+  line-height: 30px;
+  color: brown;
+  background: chartreuse;
+}
+
+#sticky1{
+  top: 0px;
+}
+#sticky2{
+  top: 30px;
+}
